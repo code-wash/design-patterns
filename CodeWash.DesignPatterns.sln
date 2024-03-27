@@ -55,6 +55,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWash.DesignPatterns.Tem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWash.DesignPatterns.Visitor", "Behavioral\CodeWash.DesignPatterns.Visitor\CodeWash.DesignPatterns.Visitor.csproj", "{813328E0-A989-4A18-A476-0148E2B91B68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWash.DesignPatterns.AbstractFactory.Usage", "Creational\CodeWash.DesignPatterns.AbstractFactory.Usage\CodeWash.DesignPatterns.AbstractFactory.Usage.csproj", "{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{813328E0-A989-4A18-A476-0148E2B91B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813328E0-A989-4A18-A476-0148E2B91B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813328E0-A989-4A18-A476-0148E2B91B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{11863F2D-2433-4031-9A73-C7ECBE39A98A} = {8780CCF6-0610-4F07-978F-C001C09E8955}
 		{35646353-EFDD-479F-8400-709B7F38A35E} = {8780CCF6-0610-4F07-978F-C001C09E8955}
 		{813328E0-A989-4A18-A476-0148E2B91B68} = {8780CCF6-0610-4F07-978F-C001C09E8955}
+		{2966DD62-CC01-4FF7-AE99-A3F4D227FCE9} = {4F435322-D13D-461B-BE1A-6846C74BF093}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19831C16-31BA-41DD-9AE9-C06A46B92DAA}
