@@ -22,12 +22,37 @@ Each pattern answers four questions:
 | --- | --- | --- | --- |
 | [Abstract Factory](Creational/CodeWash.DesignPatterns.AbstractFactory) | Creational | VPC tier allocation (coherent CPU + RAM families) | ✅ |
 | [Bridge](Structural/CodeWash.DesignPatterns.Bridge) | Structural | Multi-gateway payment routing | ✅ |
+| [Strategy](Behavioral/CodeWash.DesignPatterns.Strategy) | Behavioral | Settling fraud vs. dispute claims | ✅ |
 | Singleton | Creational | — | 🚧 placeholder |
 
 🚧 = code exists but is still textbook-shaped; awaiting a real example.
 
 Patterns are added one at a time, each with a real example. A pattern appears in
 this table only once it has one — an empty project is worse than an absent one.
+
+## How the examples are scoped
+
+Real problems come with unlimited detail, and shipping all of it would bury the
+pattern under domain trivia. Every example here is scoped by one rule:
+
+> **Keep the detail that creates pressure for the pattern. Cut everything else.**
+
+A pattern is justified by the *shape* of the variation, not its volume. So the
+differences between implementations stay vivid, while the depth inside any one of
+them gets pushed behind an interface. In practice:
+
+- **The differences are the spec.** Each pattern's README opens with a table of what
+  varies; the code contains those differences and no others.
+- **Each implementation fits on a screen.** If you have to scroll to compare two
+  classes, the contrast is invisible and the example has failed.
+- **Detail that doesn't differ goes behind a collaborator.** Interfaces are the right
+  place to stop. You can see *that* fraud needs an exposure assessment and a dispute
+  does not, without learning how one is calculated.
+- **Three or four points of divergence is plenty.** Enough to establish a pattern,
+  few enough to hold in your head.
+
+The examples are informed by production systems but are not copies of them. Rules are
+thinned, names are independent, and nothing proprietary appears here.
 
 ## Layout
 
