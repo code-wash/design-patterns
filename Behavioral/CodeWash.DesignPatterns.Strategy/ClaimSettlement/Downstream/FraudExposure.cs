@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 /// <summary>
 /// The outcome of <see cref="IFraudExposureAssessor"/>. Has no equivalent on

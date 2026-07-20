@@ -1,3 +1,6 @@
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Strategies;
+
 namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
 
 /// <summary>

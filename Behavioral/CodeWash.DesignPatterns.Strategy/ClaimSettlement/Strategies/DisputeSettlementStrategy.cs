@@ -1,6 +1,8 @@
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 using Microsoft.Extensions.Logging;
 
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Strategies;
 
 /// <summary>
 /// Dispute: the transaction was authorised, but the cardholder is unhappy with

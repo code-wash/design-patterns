@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
 
 /// <summary>
 /// One result model for every claim type, matching

@@ -1,4 +1,6 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Strategies;
 
 /// <summary>
 /// Maps a claim type to the strategy responsible for it.

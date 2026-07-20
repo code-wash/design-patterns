@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 /// <summary>
 /// Disputes only: the money is clawed back from the merchant rather than
