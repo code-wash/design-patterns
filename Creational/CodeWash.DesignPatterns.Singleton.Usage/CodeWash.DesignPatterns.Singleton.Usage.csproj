@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeWash.DesignPatterns.Singleton\CodeWash.DesignPatterns.Singleton.csproj" />
+  </ItemGroup>
+
+</Project>
