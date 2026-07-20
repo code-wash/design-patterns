@@ -22,10 +22,12 @@ Each pattern answers four questions:
 | --- | --- | --- | --- |
 | [Abstract Factory](Creational/CodeWash.DesignPatterns.AbstractFactory) | Creational | VPC tier allocation (coherent CPU + RAM families) | ✅ |
 | [Bridge](Structural/CodeWash.DesignPatterns.Bridge) | Structural | Multi-gateway payment routing | ✅ |
-| Facade | Structural | Mortgage eligibility across bank/loan/credit subsystems | 🚧 placeholder |
 | Singleton | Creational | — | 🚧 placeholder |
 
 🚧 = code exists but is still textbook-shaped; awaiting a real example.
+
+Patterns are added one at a time, each with a real example. A pattern appears in
+this table only once it has one — an empty project is worse than an absent one.
 
 ## Layout
 
