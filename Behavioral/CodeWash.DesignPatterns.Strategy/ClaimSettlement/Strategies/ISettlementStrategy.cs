@@ -1,4 +1,6 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Strategies;
 
 /// <summary>
 /// One way of turning a <see cref="SettlementRequest"/> into a

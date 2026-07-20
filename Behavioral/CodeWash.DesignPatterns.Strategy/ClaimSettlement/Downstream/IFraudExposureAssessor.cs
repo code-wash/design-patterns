@@ -1,4 +1,6 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 /// <summary>
 /// Fraud only: decides how much of the loss is recoverable and whether a human

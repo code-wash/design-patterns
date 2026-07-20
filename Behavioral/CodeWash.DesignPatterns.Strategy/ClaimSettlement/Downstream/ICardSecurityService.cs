@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 /// <summary>
 /// Fraud only: stop the bleeding before anything else. A dispute never blocks

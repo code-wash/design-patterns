@@ -1,4 +1,6 @@
 using CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 using CodeWash.DesignPatterns.Strategy.Usage;
 using Microsoft.Extensions.DependencyInjection;
 

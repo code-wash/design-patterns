@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
 
 /// <summary>
 /// Why the cardholder is claiming money back. This is the value that selects

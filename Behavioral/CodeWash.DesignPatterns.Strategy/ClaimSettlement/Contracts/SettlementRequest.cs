@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
 
 /// <summary>
 /// One request model for every claim type -- this shared contract is the

@@ -1,4 +1,5 @@
-using CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Contracts;
+using CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 namespace CodeWash.DesignPatterns.Strategy.Usage;
 

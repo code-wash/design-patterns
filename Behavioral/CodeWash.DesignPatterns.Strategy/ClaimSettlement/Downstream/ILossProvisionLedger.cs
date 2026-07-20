@@ -1,4 +1,4 @@
-namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement;
+namespace CodeWash.DesignPatterns.Strategy.ClaimSettlement.Downstream;
 
 /// <summary>
 /// Fraud only: the bank carries the loss itself and recovers from the scheme

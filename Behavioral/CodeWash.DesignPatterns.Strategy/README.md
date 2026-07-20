@@ -120,6 +120,21 @@ missing reason code sinks a dispute while fraud settles fine without one, and th
 `Enum.GetValues<ClaimType>()`, so forgetting to register a future strategy fails the
 build rather than production.
 
+## Layout
+
+```
+ClaimSettlement/
+├── ClaimSettlementService.cs        the Context -- what an endpoint calls
+├── ServiceCollectionExtensions.cs   DI registration
+├── Contracts/                       the shared request/response the strategies agree on
+├── Strategies/                      the interchangeable algorithms, plus the selector
+└── Downstream/                      the systems the strategies talk to
+```
+
+`Downstream/` is a folder rather than five loose files on purpose: those interfaces
+are supporting cast. You need to know *that* fraud depends on three of them and a
+dispute on one — which the folder makes obvious — without reading any of them.
+
 ## A note on how much domain is in here
 
 The rules in these strategies are real but heavily thinned. In a production issuer,
