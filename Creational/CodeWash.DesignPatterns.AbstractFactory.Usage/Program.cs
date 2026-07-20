@@ -1,5 +1,2 @@
-﻿Console.WriteLine("Hello, World!");
-
-//new CodeWash.DesignPatterns.AbstractFactory.Usage.Raw.Client().Main();
-//new CodeWash.DesignPatterns.AbstractFactory.Usage.VPCAllocation.Client().Main();
-new CodeWash.DesignPatterns.AbstractFactory.Usage.Dishes.Client().Main();
+// Allocating a coherent CPU + RAM pair per VPC tier.
+new CodeWash.DesignPatterns.AbstractFactory.Usage.VPCAllocation.Client().Main();
