@@ -23,10 +23,8 @@ Each pattern answers four questions:
 | [Abstract Factory](Creational/CodeWash.DesignPatterns.AbstractFactory) | Creational | VPC tier allocation (coherent CPU + RAM families) | ✅ |
 | [Adapter](Structural/CodeWash.DesignPatterns.Adapter) | Structural | One card-transaction feed over incompatible processors | ✅ |
 | [Bridge](Structural/CodeWash.DesignPatterns.Bridge) | Structural | Multi-gateway payment routing | ✅ |
+| [Singleton](Creational/CodeWash.DesignPatterns.Singleton) | Creational | Process-wide sequence allocator — and why modern .NET reaches for DI instead | ✅ |
 | [Strategy](Behavioral/CodeWash.DesignPatterns.Strategy) | Behavioral | Settling fraud vs. dispute claims | ✅ |
-| Singleton | Creational | — | 🚧 placeholder |
-
-🚧 = code exists but is still textbook-shaped; awaiting a real example.
 
 Patterns are added one at a time, each with a real example. A pattern appears in
 this table only once it has one — an empty project is worse than an absent one.
