@@ -21,6 +21,7 @@ Each pattern answers four questions:
 | Pattern | Category | Real-world example | Status |
 | --- | --- | --- | --- |
 | [Abstract Factory](Creational/CodeWash.DesignPatterns.AbstractFactory) | Creational | VPC tier allocation (coherent CPU + RAM families) | ✅ |
+| [Adapter](Structural/CodeWash.DesignPatterns.Adapter) | Structural | One card-transaction feed over incompatible processors | ✅ |
 | [Bridge](Structural/CodeWash.DesignPatterns.Bridge) | Structural | Multi-gateway payment routing | ✅ |
 | [Strategy](Behavioral/CodeWash.DesignPatterns.Strategy) | Behavioral | Settling fraud vs. dispute claims | ✅ |
 | Singleton | Creational | — | 🚧 placeholder |
